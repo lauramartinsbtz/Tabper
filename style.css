@@ -1,0 +1,42 @@
+* {box-sizing: border-box;
+  margin: 10px;
+}
+
+table { width: 100%;
+height: 100vh;}
+
+td { width: 5%;
+height: 8.3vh;}
+
+.border  {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  border: rgb(187, 187, 187) solid 0.5px;
+}
+
+
+#criado{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.borderlinha { border: 0px solid rgb(95, 95, 95);
+background-color: white;}
+
+
+#netal { background-color: #9ed840;}
+#transitionmetal{ background-color: #df7171;}
+#gasnobre { background-color: #025091;}
+#metaisalcalinos { background-color: #faaf00;}
+#metaisalcalinost { background-color:rgb(255, 204, 83);}
+#halogenio { background-color: #64c6df;}
+
+#outros { background-color: #747474;}
+#semimetal { background-color: #519244;}
+
+
+
+p::before {
+  content: "◼";
+  color: rgb(136, 126, 68);
+}
